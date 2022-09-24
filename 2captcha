@@ -1,0 +1,11 @@
+api2captcha::recaptcha_t captcha;
+
+captcha.set_site_key ("6Le-wvkSVVABCPBMRTvw0Q4Muexq1bi0DJwx_mJ-");
+
+captcha.set_url ("https://mysite.com/page/with/recaptcha");
+
+captcha.set_invisible (true);
+
+captcha.set_action ("verify");
+
+captcha.set_proxy ("HTTPS", "login:password@IP_address:PORT");
